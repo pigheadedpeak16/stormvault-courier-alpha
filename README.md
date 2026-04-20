@@ -2,6 +2,12 @@
 
 An early playable browser-game prototype built with Phaser, TypeScript, and Vite.
 
+## Play Now
+
+[Play Stormvault Courier Alpha](https://pigheadedpeak16.github.io/stormvault-courier-alpha/)
+
+The link above opens the live game directly in the browser.
+
 ## What You Do
 
 - Navigate storm sectors and scan for salvage.
