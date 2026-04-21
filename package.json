@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "check:orb-balance": "node --experimental-strip-types src/game/core/orbBalance.spec.ts",
+    "check:progression-balance": "node --experimental-strip-types src/game/core/progressionBalance.spec.ts",
+    "build": "npm run check:orb-balance && npm run check:progression-balance && tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
